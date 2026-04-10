@@ -1,8 +1,20 @@
 {
-  "name": "react-example",
-  "private": true,
+  "name": "wset-digital-academy",
   "version": "0.0.0",
+  "private": true,
+  "description": "wset academy",
+  "homepage": "https://github.com/wsetacademyofficial-ui/wset-academy-webpage#readme",
+  "bugs": {
+    "url": "https://github.com/wsetacademyofficial-ui/wset-academy-webpage/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsetacademyofficial-ui/wset-academy-webpage.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
