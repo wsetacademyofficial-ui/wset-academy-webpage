@@ -141,22 +141,6 @@ export default function LevelPage({ data }: LevelPageProps) {
           </AnimatePresence>
         )}
       </div>
-
-      {/* Footer CTA */}
-      <section className="py-20 px-6 bg-slate-900 text-white text-center">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold mb-6">Ready for the real exam?</h2>
-          <p className="text-slate-400 mb-10 text-lg">Our academy is designed to mirror the official WSET standards. Keep practicing until you consistently score above 80%.</p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="w-full sm:w-auto px-8 py-4 bg-accent hover:bg-accent-dark text-white rounded-2xl font-bold transition-all active:scale-95">
-              Book Official Exam
-            </button>
-            <button className="w-full sm:w-auto px-8 py-4 bg-white/10 hover:bg-white/20 text-white rounded-2xl font-bold transition-all active:scale-95">
-              Download Study Guide
-            </button>
-          </div>
-        </div>
-      </section>
     </motion.div>
   );
 }
