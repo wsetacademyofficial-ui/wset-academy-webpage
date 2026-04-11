@@ -131,20 +131,200 @@ export const WSET_DATA: WSETLevelData[] = [
         aging: "High potential"
       }
     ],
-    regions: [
-      {
-        country: "USA",
-        region: "Napa Valley",
-        grape: "Cabernet Sauvignon",
-        characteristics: "Full body, ripe black fruit, oak"
-      },
-      {
-        country: "Australia",
-        region: "Barossa Valley",
-        grape: "Shiraz",
-        characteristics: "Full body, black fruit, chocolate"
-      }
-    ],
+"regions": [
+    {
+      "country": "France",
+      "region": "Northern Rhône (Crozes-Hermitage, Hermitage, Côte Rôtie, Condrieu)",
+      "grape": "Syrah, Viognier",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "France",
+      "region": "Bourgogne / Burgundy",
+      "grape": "Pinot Noir, Chardonnay",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "France",
+      "region": "South of France (Minervois)",
+      "grape": "Syrah, Chardonnay, Grenache",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "France",
+      "region": "Beaujolais",
+      "grape": "Gamay",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "France",
+      "region": "Southern Rhône (Côtes du Rhône, Châteauneuf-du-Pape)",
+      "grape": "Grenache",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "France",
+      "region": "Loire (Vouvray)",
+      "grape": "Chenin Blanc",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "France",
+      "region": "Bordeaux (Sauternes)",
+      "grape": "Sémillon",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "France",
+      "region": "Alsace",
+      "grape": "Gewurztraminer",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "France",
+      "region": "Champagne",
+      "grape": "Chardonnay, Pinot Noir, Meunier",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Australia",
+      "region": "South Eastern Australia",
+      "grape": "Syrah / Shiraz, Chardonnay",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Australia",
+      "region": "Barossa Valley",
+      "grape": "Syrah / Shiraz, Grenache, Sémillon",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Australia",
+      "region": "Hunter Valley",
+      "grape": "Syrah / Shiraz, Sémillon",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Australia",
+      "region": "Yarra Valley, Mornington Peninsula",
+      "grape": "Pinot Noir",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Australia",
+      "region": "McLaren Vale",
+      "grape": "Grenache",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "USA",
+      "region": "Sonoma, Carneros, Santa Barbara County, Oregon",
+      "grape": "Pinot Noir, Chardonnay",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "USA",
+      "region": "California, Napa Valley",
+      "grape": "Chardonnay",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Chile",
+      "region": "Casablanca Valley",
+      "grape": "Pinot Noir, Chardonnay",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Chile",
+      "region": "Central Valley",
+      "grape": "Chardonnay",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "South Africa",
+      "region": "Walker Bay",
+      "grape": "Pinot Noir, Chardonnay",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "South Africa",
+      "region": "Western Cape",
+      "grape": "Chardonnay",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "South Africa",
+      "region": "General",
+      "grape": "Chenin Blanc",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "New Zealand",
+      "region": "Martinborough, Marlborough, Central Otago",
+      "grape": "Pinot Noir",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Spain",
+      "region": "Rioja",
+      "grape": "Grenache / Garnacha, Tempranillo",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Spain",
+      "region": "Navarra, Priorat",
+      "grape": "Grenache / Garnacha",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Spain",
+      "region": "Ribera del Duero, Catalunya",
+      "grape": "Tempranillo",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Spain",
+      "region": "Rías Baixas",
+      "grape": "Albariño",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Italy",
+      "region": "Verdicchio dei Castelli di Jesi",
+      "grape": "Verdicchio",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Italy",
+      "region": "Gavi",
+      "grape": "Cortese",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Italy",
+      "region": "Soave",
+      "grape": "Garganega",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Italy",
+      "region": "Fiano di Avellino",
+      "grape": "Fiano",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Italy",
+      "region": "Asti, Prosecco",
+      "grape": "Moscato, Glera",
+      "characteristics": "Not specified in text"
+    },
+    {
+      "country": "Hungary",
+      "region": "Tokaj",
+      "grape": "Furmint",
+      "characteristics": "Not specified in text"
+    }
+  ],
     flashcards: [
       { id: "2-1", question: "What is 'Chablis'?", answer: "A 100% Chardonnay wine from a cool climate region in northern Burgundy, known for high acidity and flinty notes." },
       { id: "2-2", question: "Describe the typical profile of Cabernet Sauvignon.", answer: "High tannin, high acidity, blackcurrant aromas, and often notes of cedar or tobacco from oak aging." },
