@@ -50,7 +50,7 @@ export default function App() {
       </main>
 
       <footer className="py-12 px-6 border-t border-slate-200 bg-white">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+        <div className="max-w-[95%] mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-2">
             <div className="w-6 h-6 bg-slate-900 rounded flex items-center justify-center text-white text-xs font-bold">W</div>
             <span className="font-bold text-slate-900">WSET Digital Academy</span>

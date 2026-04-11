@@ -36,7 +36,7 @@ export default function LevelPage({ data }: LevelPageProps) {
       <section className="pt-32 pb-12 px-6 bg-white overflow-hidden relative border-b border-slate-100">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-accent/5 -skew-x-12 transform translate-x-1/4" />
         
-        <div className="max-w-7xl mx-auto relative z-10">
+        <div className="max-w-[95%] mx-auto relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
